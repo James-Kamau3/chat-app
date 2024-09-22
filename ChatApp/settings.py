@@ -35,6 +35,7 @@ INSTALLED_APPS = [
     'daphne',
     #add Django Channels
     'channels',
+    'chat.apps.ChatConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
